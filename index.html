@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damini Nayak — Trauma-Informed Psychotherapist</title>
+  <meta name="description" content="Damini Nayak is a trauma-informed psychotherapist based in Bangalore, offering individual, couples, and family therapy online and in person." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Cormorant Garamond (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       Edit nav link labels here if needed
+  ============================================================ -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="#home" class="nav-logo">Damini Nayak</a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#areas">Areas of Support</a></li>
+        <li><a href="#words">In Their Words</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+       Edit: headline, subtitle, intro line, button links
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-image-col">
+        <!-- 
+          PROFILE PHOTO:
+          1. Create a folder called "assets" in the same directory as index.html
+          2. Place your photo inside it and name it "profile.jpg"
+          3. The image will appear automatically here
+        -->
+        <div class="hero-photo-wrap">
+          <img
+            src="assets/profile.jpg"
+            alt="Portrait of Damini Nayak, psychotherapist"
+            class="hero-photo"
+            onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')"
+          />
+          <div class="photo-fallback" aria-hidden="true">
+            <span>DN</span>
+            <p>Add&nbsp;photo to<br>assets/profile.jpg</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-text-col">
+        <p class="hero-eyebrow">Trauma-Informed Psychotherapist</p>
+        <!-- EDIT: Main headline -->
+        <h1 class="hero-name">Damini<br>Nayak</h1>
+        <!-- EDIT: Intro line below name -->
+        <p class="hero-tagline">A space to slow down, make sense of things,<br>and find your way back to yourself.</p>
+        <div class="hero-actions">
+          <!-- EDIT: Booking link -->
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYpSlpMEs84fARfG5jMJ8CPFRhr3s5tVn5glu9twraZwQWPg/viewform" target="_blank" rel="noopener" class="btn btn-primary">Book a Consultation</a>
+          <!-- EDIT: Email address -->
+          <a href="mailto:damininayak17@gmail.com" class="btn btn-secondary">Email Damini</a>
+        </div>
+        <p class="hero-location">In-person in Bangalore &nbsp;·&nbsp; Online across India &amp; internationally</p>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">↓</div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+       Edit: paragraph text, credentials
+  ============================================================ -->
+  <section class="about section-pad" id="about">
+    <div class="container two-col">
+      <div class="about-label-col">
+        <span class="section-tag">About</span>
+      </div>
+      <div class="about-text-col">
+        <h2 class="section-heading">Getting to know people is at the heart of this work.</h2>
+        <p>I'm Damini — a psychotherapist with eight years of experience working with adults, couples, and families. I hold an MA in Applied Psychology (Clinical Psychology) from the Tata Institute of Social Sciences (2018), and I bring a deep curiosity about what shapes people: their histories, their relationships, and the environments they've moved through. My practice draws on Narrative therapy and Solution-Focused Brief Therapy (SFBT), alongside a trauma-informed way of working.</p>
+        <p>I'm based in Bangalore and work with clients in person there, as well as online with people across India and internationally. Therapy, for me, isn't about fixing — it's about understanding. Our struggles rarely exist in isolation. They're tied to who we've loved, what we've survived, and the places we've grown up in. I try to hold all of that with care.</p>
+        <!-- EDIT: Human detail — books, animals, etc. Update or remove as preferred -->
+        <p class="about-personal">Outside the therapy room, you'll usually find me with more books than I can finish, stopping to say hello to street animals, or somewhere in the mountains on a slow walk. These are the things that keep me grounded — and I think that groundedness shows up in how I work.</p>
+
+        <div class="credentials-row">
+          <div class="credential-item">
+            <span class="cred-number">8</span>
+            <span class="cred-label">Years of practice</span>
+          </div>
+          <div class="credential-item">
+            <span class="cred-number">MA</span>
+            <span class="cred-label">Applied Psychology, TISS</span>
+          </div>
+          <div class="credential-item">
+            <span class="cred-number">🌍</span>
+            <span class="cred-label">Clients across India &amp; worldwide</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       APPROACH SECTION
+       Edit: paragraph text, pillars
+  ============================================================ -->
+  <section class="approach section-pad" id="approach">
+    <div class="container">
+      <div class="approach-header">
+        <span class="section-tag">Approach</span>
+        <h2 class="section-heading">Therapy at a pace that feels safe to you.</h2>
+      </div>
+      <div class="approach-body">
+        <div class="approach-intro">
+          <p>My work is trauma-informed at its core — which means we move at a pace that honours your nervous system, not one that pushes past it. There is no pressure to revisit anything before you're ready. What matters most is that you feel safe, heard, and never judged.</p>
+          <p>I think of therapy as a collaborative process. We work together to understand your patterns, notice what triggers certain responses, and build tools that support you in everyday life. I also recognise that your struggles don't exist in a vacuum: they've been shaped by your relationships, your family, your culture, and your lived history.</p>
+          <p>Where it feels helpful, I may bring in simple body-based practices to support emotional awareness and regulation — because healing isn't only intellectual. It lives in the body too.</p>
+        </div>
+        <div class="approach-pillars">
+          <!-- EDIT: Pillar headings and descriptions -->
+          <div class="pillar">
+            <div class="pillar-icon">◎</div>
+            <h3>Trauma-Informed</h3>
+            <p>Safety, choice, and pacing are built into everything. We never move faster than what feels right for you.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">◎</div>
+            <h3>Collaborative</h3>
+            <p>You are the expert on your own life. I bring knowledge, reflection, and tools — you bring the direction.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">◎</div>
+            <h3>Relational</h3>
+            <p>Your history with others shapes how you move through the world. We explore that with curiosity, not judgment.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">◎</div>
+            <h3>Embodied</h3>
+            <p>Alongside talk therapy, I bring in gentle body-based practices to support regulation and awareness.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AREAS OF SUPPORT SECTION
+       Edit: chip labels
+  ============================================================ -->
+  <section class="areas section-pad" id="areas">
+    <div class="container">
+      <span class="section-tag">Areas of Support</span>
+      <h2 class="section-heading">What we might work through together.</h2>
+      <p class="areas-intro">Therapy rarely fits neatly into one box. Below are some of the areas I commonly work in — though your experience may span several, or none of these labels perfectly.</p>
+      <div class="chip-grid">
+        <!-- EDIT: Add or remove chips as needed -->
+        <span class="chip">Anxiety</span>
+        <span class="chip">Trauma</span>
+        <span class="chip">Relationship concerns</span>
+        <span class="chip">Family dynamics</span>
+        <span class="chip">Attachment patterns</span>
+        <span class="chip">Depression</span>
+        <span class="chip">Stress &amp; burnout</span>
+        <span class="chip">Grief &amp; loss</span>
+        <span class="chip">Self-esteem</span>
+        <span class="chip">Emotional regulation</span>
+        <span class="chip">Anger</span>
+        <span class="chip">Mood swings</span>
+        <span class="chip">Life transitions</span>
+        <span class="chip">Adulthood concerns</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+       Edit: service titles and descriptions
+  ============================================================ -->
+  <section class="services section-pad">
+    <div class="container">
+      <span class="section-tag">Services</span>
+      <h2 class="section-heading">How we can work together.</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Individual Therapy</h3>
+          <p>One-to-one sessions for adults navigating anxiety, trauma, life changes, relationships, or simply the weight of being human.</p>
+        </div>
+        <div class="service-card">
+          <h3>Couples-Informed Work</h3>
+          <p>Exploring relationship patterns, communication, and attachment — whether you're in a partnership or reflecting on past relationships.</p>
+        </div>
+        <div class="service-card">
+          <h3>Family Therapy</h3>
+          <p>Working with families to improve communication, navigate conflict, and understand the dynamics shaping how you relate to one another.</p>
+        </div>
+        <div class="service-card">
+          <h3>Online Therapy</h3>
+          <p>Sessions via Google Meet, available across India and internationally. The same care, wherever you are.</p>
+        </div>
+        <div class="service-card">
+          <h3>In-Person · Bangalore</h3>
+          <p>A limited number of in-person slots are available in Bangalore. Hybrid arrangements — alternating between online and in-person — are also possible.</p>
+        </div>
+        <div class="service-card">
+          <h3>Corporate Workshops</h3>
+          <p>Psychoeducation and mental health workshops for workplace settings, covering topics like stress, resilience, and emotional well-being.</p>
+        </div>
+        <div class="service-card service-card--highlight">
+          <h3>Free 15-Min Consultation</h3>
+          <p>A short initial call to meet, ask questions, and see whether we might be a good fit — before any commitment.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYpSlpMEs84fARfG5jMJ8CPFRhr3s5tVn5glu9twraZwQWPg/viewform" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top: 1rem; display:inline-block;">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       IN THEIR WORDS SECTION
+       Edit: quotes and demographic labels below each card
+  ============================================================ -->
+  <section class="testimonials section-pad" id="words">
+    <div class="container">
+      <span class="section-tag">In Their Words</span>
+      <h2 class="section-heading">Reflections from people I've worked with.</h2>
+      <div class="testimonial-grid">
+
+        <!-- CLIENT A — Edit quote and label -->
+        <div class="testimonial-card testimonial-card--large">
+          <blockquote>
+            "When I first came to therapy, I felt broken and hopeless after a painful breakup. I honestly couldn't see a way forward. Damini helped me make sense of what I was going through, taught me about my attachment style, and showed me how to care for and love myself again. At the very start, she shared something that stayed with me: she's like the trolley that helps you carry your luggage, but doesn't carry it for you. With every bit of progress, I notice more light and love in the world, and I feel more connected to myself. I'm so grateful for the safe space she creates."
+          </blockquote>
+          <cite>Female, 26–35</cite>
+        </div>
+
+        <!-- CLIENT B — Edit quote and label -->
+        <div class="testimonial-card">
+          <blockquote>
+            "I started re-doing therapy after a long break. Damini took time to know me better and then helped me find ways to work through my problems. I've been working with her for almost six months now, and it has been incredible."
+          </blockquote>
+          <cite>Male, 26–35</cite>
+        </div>
+
+        <!-- CLIENT C — Edit quote and label -->
+        <div class="testimonial-card">
+          <blockquote>
+            "Honestly, it was very helpful. It changed my life for the better."
+          </blockquote>
+          <cite>Male, 26–35</cite>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ SECTION
+       Edit: questions and answers
+  ============================================================ -->
+  <section class="faq section-pad">
+    <div class="container">
+      <span class="section-tag">FAQ</span>
+      <h2 class="section-heading">A few things people often ask.</h2>
+      <div class="faq-grid">
+
+        <details class="faq-item">
+          <summary>Do you offer online therapy?</summary>
+          <p>Yes — sessions are available online via Google Meet, for clients across India and internationally.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do you offer in-person sessions?</summary>
+          <p>Yes, though in-person slots in Bangalore are limited. I'm more available for hybrid arrangements — alternating between online and in-person sessions based on what works for you.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What happens in the consultation call?</summary>
+          <p>It's a brief 15-minute conversation — a chance for us to meet, for you to ask questions, and to get a sense of whether we might be a good fit. There's no commitment involved.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What if the fit doesn't work out?</summary>
+          <p>That's a real possibility, and I understand it. I typically work with clients over the longer term and ask for at least six sessions before we assess the fit together. After that initial period, I do a short check-in every tenth session to make sure we're still on track and working in a direction that feels right for you.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do you take payment?</summary>
+          <p>Via UPI or bank transfer. Payment is taken in advance to confirm your session booking.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What are the fees?</summary>
+          <p>Fees are shared on enquiry. Fees are reviewed once a year in January — I always discuss any changes with clients in advance. Sliding-scale slots are occasionally available for those who need them, subject to availability.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is the cancellation policy?</summary>
+          <div class="faq-policy">
+            <p><strong>Online sessions</strong></p>
+            <ul>
+              <li>More than 24 hours' notice: No charge</li>
+              <li>Between 24 and 2 hours before: 25% of session fee</li>
+              <li>Less than 2 hours or no-show: Full session fee</li>
+            </ul>
+            <p><strong>In-person sessions</strong></p>
+            <ul>
+              <li>More than 48 hours' notice: No charge</li>
+              <li>Within 48 hours: 25% of session fee</li>
+              <li>Same-day cancellations: Full session fee</li>
+            </ul>
+            <p>Cancellations due to health concerns are not charged — your wellbeing comes first.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is therapy confidential?</summary>
+          <p>Yes. What you share in sessions remains confidential. There are a small number of legal and ethical exceptions — such as if there is serious risk of harm — which I'm happy to discuss openly before we begin.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is this crisis support?</summary>
+          <p>No. Therapy is not a crisis or emergency service. If you or someone you know is in immediate danger, please contact local emergency services or a crisis helpline in your area.</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+       Edit: email address, booking link
+  ============================================================ -->
+  <section class="contact section-pad" id="contact">
+    <div class="container contact-inner">
+      <span class="section-tag">Contact</span>
+      <h2 class="section-heading">Let's see if we're a good fit.</h2>
+      <p class="contact-body">The first step is a short, free consultation call — no pressure, no commitment. You're welcome to reach out by email if you have questions first.</p>
+      <div class="contact-actions">
+        <!-- EDIT: Booking link -->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYpSlpMEs84fARfG5jMJ8CPFRhr3s5tVn5glu9twraZwQWPg/viewform" target="_blank" rel="noopener" class="btn btn-primary">Book a Free Consultation</a>
+        <!-- EDIT: Email address -->
+        <a href="mailto:damininayak17@gmail.com" class="btn btn-secondary">damininayak17@gmail.com</a>
+      </div>
+      <p class="contact-location">In-person in Bangalore &nbsp;·&nbsp; Online across India &amp; internationally</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       Edit: crisis disclaimer text if needed
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Damini Nayak &mdash; Psychotherapist</p>
+      <p class="footer-disclaimer">
+        This service is not emergency or crisis support. If you are in immediate danger or at risk of harming yourself or someone else, please contact local emergency services or a crisis helpline in your area.
+      </p>
+      <p class="footer-copy">&copy; <span id="year"></span> Damini Nayak. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Close nav on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+  </script>
+
+</body>
+</html>
