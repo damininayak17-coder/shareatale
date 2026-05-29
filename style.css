@@ -797,3 +797,28 @@ ul { list-style: none; }
 
 
 }
+
+/* ----------------------------------------------------------------
+   LOGO
+---------------------------------------------------------------- */
+.nav-logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.hero-logo-wrap {
+  margin-bottom: 1.5rem;
+}
+
+.hero-logo-img {
+  height: 52px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .hero-logo-img {
+    margin: 0 auto;
+  }
+}
