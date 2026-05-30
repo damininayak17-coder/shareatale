@@ -203,30 +203,32 @@ ul { list-style: none; }
    HERO
 ---------------------------------------------------------------- */
 .hero {
-  min-height: calc(100vh - var(--nav-h));
-  padding-top: var(--nav-h);
+  height: calc(100vh - var(--nav-h));
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   background: var(--cream);
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .hero-inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2.5rem 2rem 2rem;
+  padding: 1.5rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 2rem;
   align-items: center;
+  width: 100%;
 }
 
 /* Profile photo */
 .hero-photo-wrap {
   position: relative;
   width: 100%;
-  max-width: 360px;
+  max-width: 340px;
+  max-height: calc(100vh - var(--nav-h) - 3rem);
   aspect-ratio: 4 / 5;
   border-radius: 240px 240px 120px 120px;
   overflow: hidden;
@@ -431,7 +433,7 @@ ul { list-style: none; }
   font-size: 1.15rem;
   font-weight: 500;
   color: var(--ink);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
 }
 
 .pillar p {
