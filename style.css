@@ -215,7 +215,7 @@ ul { list-style: none; }
 .hero-inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0.5rem 2rem 1rem;
+  padding: 2.5rem 2rem 1rem;
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 2rem;
@@ -764,7 +764,7 @@ ul { list-style: none; }
     background: var(--cream);
     border-bottom: 1px solid var(--border);
     flex-direction: column;
-    padding: 0.5rem 2rem 1rem;
+    padding: 2.5rem 2rem 1rem;
     gap: 1.2rem;
     z-index: 99;
   }
