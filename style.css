@@ -810,7 +810,7 @@ ul { list-style: none; }
    LOGO
 ---------------------------------------------------------------- */
 .nav-logo-img {
-  height: 52px;
+  height: 62px;
   width: auto;
   display: block;
 }
@@ -820,7 +820,7 @@ ul { list-style: none; }
 }
 
 .hero-logo-img {
-  height: 110px;
+  height: 130px;
   width: auto;
   display: block;
 }
