@@ -576,21 +576,6 @@ ul { list-style: none; }
   color: var(--sage);
 }
 
-.testimonial-toggle {
-  background: none;
-  border: 0;
-  padding: 0;
-  margin: -0.2rem 0 1rem;
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  color: var(--sage);
-  cursor: pointer;
-}
-
-.testimonial-toggle:hover {
-  text-decoration: underline;
-}
-
 .testimonial-card--large {
   background: var(--sage-light);
   border-color: var(--highlight);
@@ -825,7 +810,7 @@ ul { list-style: none; }
    LOGO
 ---------------------------------------------------------------- */
 .nav-logo-img {
-  height: 60px;
+  height: 52px;
   width: auto;
   display: block;
 }
@@ -835,23 +820,45 @@ ul { list-style: none; }
 }
 
 .hero-logo-img {
-  height: 130px;
+  height: 110px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 900px) {
   .hero-logo-img {
-    height: 105px;
+    height: 90px;
     margin: 0 auto;
   }
 }
 
 @media (max-width: 600px) {
   .nav-logo-img {
-    height: 60px;
+    height: 56px;
   }
   .hero-logo-img {
-    height: 105px;
+    height: 90px;
   }
+}
+
+/* ----------------------------------------------------------------
+   READ MORE TOGGLE — testimonials
+---------------------------------------------------------------- */
+.read-more-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: #7A9E87;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  display: block;
+}
+.read-more-btn:hover {
+  color: #5e8a6c;
+}
+.quote-full {
+  font-style: italic;
 }
