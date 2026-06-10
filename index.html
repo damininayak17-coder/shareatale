@@ -49,7 +49,11 @@
           3. The image will appear automatically here
         -->
         <div class="hero-photo-wrap photo-placeholder">
-          <img src="assets/profile.jpg" alt="Portrait of Damini Nayak, psychotherapist" class="hero-photo">
+          <img src="assets/profile.jpg" alt="Portrait of Damini Nayak, psychotherapist" class="hero-photo" onerror="this.style.display=&#39;none&#39;; this.parentElement.classList.add(&#39;photo-placeholder&#39;)" style="display: none;">
+          <div class="photo-fallback" aria-hidden="true">
+            <span>DN</span>
+            <p>Add&nbsp;photo to<br>assets/profile.jpg</p>
+          </div>
         </div>
       </div>
 
