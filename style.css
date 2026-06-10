@@ -862,3 +862,26 @@ ul { list-style: none; }
 .quote-full {
   font-style: italic;
 }
+
+/* ----------------------------------------------------------------
+   TESTIMONIAL GRID — Option C staggered layout
+---------------------------------------------------------------- */
+.testimonial-grid-c {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.trow {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.trow--left-wide  { grid-template-columns: 1.6fr 1fr; }
+.trow--right-wide { grid-template-columns: 1fr 1.6fr; }
+
+@media (max-width: 600px) {
+  .trow--left-wide,
+  .trow--right-wide { grid-template-columns: 1fr; }
+}
